@@ -20,6 +20,16 @@ The goal of this challenge will be to classify each image and assign to it the c
 
 ![img](https://raw.githubusercontent.com/ArealTeamM2AIC/Remote-Sensing-Image/dev_final/starting_kit/sample_images/sample_images.png)
 
+### Model Structure
+
+![img](lib/a-model.png)
+
+### Experiment Tracking by Neptune
+
+Check the following Link: 
+
+https://ui.neptune.ai/xiaoya27/AerialImageClassification/experiments?viewId=standard-view
+
 ### Result
 
 ![img](lib/heatmap.png)
