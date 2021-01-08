@@ -1,11 +1,3 @@
-Go through the challenge website and watch the trailer video.
-
-#### Question 1: Briefly explain the problem.
-
-#### Question 2: What is the scoring metric used to evaluate submissions?
-#### Question 4: what does the confusion matrix represent?
-#### Question 5: Why is there a standard deviation associated with the cross-validation score?
-
 The code was developed based on Starting Kit provided Areal Team. 
 
 # Aerial-Image-Recognition
@@ -20,6 +12,27 @@ The goal of this challenge will be to classify each image and assign to it the c
 
 ![img](https://raw.githubusercontent.com/ArealTeamM2AIC/Remote-Sensing-Image/dev_final/starting_kit/sample_images/sample_images.png)
 
+### Literature review
+
+In Section3 of a very comprehensive review of 
+[Remote Sensing Image Scene Classification Meets Deep Learning: Challenges, Methods, Benchmarks,and Opportunities](https://arxiv.org/abs/2005.01094)
+listed that deep learning based scene classification algorithms can be broadly divided
+into three main categories: 
+
+A. Autoencoder-Based Remote Sensing Image Scene Classification
+
+B. CNN-Based Remote Sensing Image Scene Classification
+
+(1) Using pre-trained CNNs as feature extractors
+
+(2) Fine-tuning pre-trained CNNs
+
+(3) Training CNNs from scratch
+
+C. GAN-Based Remote Sensing Image Scene Classification
+
+Generally Transfer learning works the best in the three categories according to research. 
+
 ### Model Structure
 
 ![img](lib/a-model.png)
@@ -31,6 +44,8 @@ Check the following Link:
 https://ui.neptune.ai/xiaoya27/AerialImageClassification/experiments?viewId=standard-view
 
 ### Result
+The modeled trained for 15 epochs on Mobilenet as feature extractor is submitted, the test accuracy is 0.90
+Accuracy calculated by percentage of predicted values (yPred) that match with actual values (yTrue).
 
 ![img](lib/heatmap.png)
 
@@ -41,3 +56,8 @@ Class Activation Maps
 Original            |  CAM
 :-------------------------:|:-------------------------:
 ![img](lib/org.png)  |  ![img](lib/cam.png)
+
+
+TODO :
+
+Training for more epochs  
