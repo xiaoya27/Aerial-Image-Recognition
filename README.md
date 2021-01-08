@@ -1,3 +1,13 @@
+Go through the challenge website and watch the trailer video.
+
+#### Question 1: Briefly explain the problem.
+
+#### Question 2: What is the scoring metric used to evaluate submissions?
+#### Question 4: what does the confusion matrix represent?
+#### Question 5: Why is there a standard deviation associated with the cross-validation score?
+
+The code was developed based on Starting Kit provided Areal Team. 
+
 # Aerial-Image-Recognition
 The competition is hosted on https://competitions.codalab.org/competitions/27749#learn_the_details-overview
 
@@ -14,6 +24,8 @@ The goal of this challenge will be to classify each image and assign to it the c
 
 ![img](lib/heatmap.png)
 
+
+Class Activation Maps
 
 
 Original            |  CAM
